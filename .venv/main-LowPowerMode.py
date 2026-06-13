@@ -48,7 +48,6 @@ def read_moisture():
 
     return value, moisture
 
-
 # =========================
 # --- DFPLAYER SETUP ---
 # =========================
