@@ -4,13 +4,11 @@
   <img src="https://github.com/user-attachments/assets/3d9df03e-2312-4e18-876b-217f649bf5a3" width="600" alt="Completed Plant Water Reminder"/>
 </p>
 
-This project was created as a gift for my partner to help take the guesswork out of watering houseplants. Overwatering and underwatering are common causes of poor plant health, so the aim was to design a compact, battery-powered device capable of periodically monitoring soil moisture and providing an audible reminder when the plant requires watering.
+This project was created as a gift for my partner to help take the guesswork out of watering houseplants. Despite having many wonderful qualities, remembering to water plants isn't always one of them—and after joking that she has more of a brown thumb than a green one, I decided to build something that would remind her when her plants were actually thirsty.
 
 The device is built around an ESP32 microcontroller and uses a capacitive soil moisture sensor to measure the water content of the soil. Rather than relying on LEDs or a mobile app, a DFPlayer Mini is used to play a pre-recorded voice message whenever the moisture level falls below a configurable threshold.
 
 To maximise battery life, the ESP32 spends almost all of its time in deep sleep, only waking periodically to take a measurement before returning to sleep. The entire assembly is housed within a custom-designed 3D printed enclosure designed in Autodesk Fusion.
-
----
 
 ## <ins>Features</ins>
 
@@ -21,8 +19,6 @@ To maximise battery life, the ESP32 spends almost all of its time in deep sleep,
 - Custom designed and fully 3D printable enclosure
 - Low-power operation using ESP32 deep sleep
 - Fully configurable moisture thresholds and wake intervals
-
----
 
 ## <ins>Hardware & Assembly</ins>
 
@@ -43,8 +39,6 @@ The design accommodates:
 - Capacitive soil moisture sensor
 
 All components are secured using standard fasteners, allowing the enclosure to be easily opened for maintenance, battery replacement or future hardware upgrades.
-
----
 
 ## <ins>Software</ins>
 
@@ -71,8 +65,6 @@ Almost every aspect of the software can be customised through the constants defi
 - Sleep intervals for wet and dry soil
 
 This allows the device to be easily adapted to different plant species, soil types and moisture sensors without modifying the main program logic.
-
----
 
 ## <ins>Future Improvements</ins>
 
