@@ -4,7 +4,7 @@
   <img src="https://github.com/user-attachments/assets/3d9df03e-2312-4e18-876b-217f649bf5a3" width="600" alt="Completed Plant Water Reminder"/>
 </p>
 
-This project was created as a gift for my partner to help take the guesswork out of watering houseplants. Despite having many wonderful qualities, remembering to water plants isn't always one of them—and after joking that she has more of a brown thumb than a green one, I decided to build something that would remind her when her plants were actually thirsty.
+This project was created as a gift for my partner to help take the guesswork out of watering houseplants. Despite having many wonderful qualities, remembering to water plants isn't always one of them-and after joking that she has more of a brown thumb than a green one, I decided to build something that would remind her when her plants were actually thirsty.
 
 The device is built around an ESP32 microcontroller and uses a capacitive soil moisture sensor to measure the water content of the soil. Rather than relying on LEDs or a mobile app, a DFPlayer Mini is used to play a pre-recorded voice message whenever the moisture level falls below a configurable threshold.
 
